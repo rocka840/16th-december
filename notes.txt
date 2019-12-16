@@ -1,0 +1,4 @@
+"use strict"; <--  u cant write code like c = 2; alert(c); bc c is not claimed.
+let is the same as var
+tiny difference = used in {} 
+const t = 2;

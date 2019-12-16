@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='timeout.js'></script>
+</head>
+
+<body>
+    <p>Click the button to wait 3 seconds, then alert "Hello".</p>
+    <button onClick="myFunction()"></button>
+
+
+    <script>
+        /* function myFunction() {
+                                setTimeout(function() {
+                                 alert("Hello");
+                                  }, 3000);
+                                 */
+        }
+    </script>
+
+    <script>
+        function myFunction2() {
+            alert("Hello");
+        }
+
+        setTimeout(myFunction2, 3000);
+    </script>
+</body>
+
+</html>
